@@ -1,0 +1,57 @@
+"""Sample question bank for testing."""
+
+questions = {
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question_text": "What is the capital of France?",
+            "options": ["Berlin", "Madrid", "Paris", "Rome"],
+            "correct_option": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "q2",
+            "type": "short_answer",
+            "question_text": "What is 2 + 2?",
+            "correct_answer": "4",
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question_text": "Which planet is known as the Red Planet?",
+            "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+            "correct_option": 1,
+            "points": 15,
+            "difficulty": "medium"
+        },
+        {
+            "id": "q4",
+            "type": "short_answer",
+            "question_text": "What is the chemical symbol for water?",
+            "correct_answer": "H2O",
+            "points": 15,
+            "difficulty": "medium"
+        },
+        {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question_text": "Which programming language is known as the 'language of the web'?",
+            "options": ["Python", "Java", "C++", "JavaScript"],
+            "correct_option": 3,
+            "points": 20,
+            "difficulty": "hard"
+        },
+        {
+            "id": "q6",
+            "type": "short_answer",
+            "question_text": "Who wrote 'Romeo and Juliet'?",
+            "correct_answer": "William Shakespeare",
+            "points": 20,
+            "difficulty": "hard"
+        }
+    ]
+}
